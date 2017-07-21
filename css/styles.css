@@ -9,7 +9,10 @@
 .text-center{
     text-align: center;
 }
-
+.demo-card-square{
+   width: 320px;
+  height: 330px;
+}
 /*
 .demo-card-square > .mdl-card__title {
   color: #fff;
