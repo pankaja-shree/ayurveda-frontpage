@@ -13,8 +13,8 @@
 
     <!-- Material Design Lite CSS and JS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Martel|Roboto:300,400,500,700" type="text/css">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-orange.min.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Eczar|Yatra+One|Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_green-orange.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Custom css -->
@@ -25,6 +25,7 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <!--Header bar-->
          <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
             <!-- Title -->
@@ -39,6 +40,7 @@
             </nav>
             </div>
         </header>
+        <!--Drawer navbar for small screens-->
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Jnanashwattha</span>
             <nav class="mdl-navigation">
@@ -49,17 +51,71 @@
         </div>
         <main class="mdl-layout__content">
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
-                    <h6 class="sans">श्रीः</h6>
-                    <h6 class="sans">श्री धन्वन्तरये नमः</h6>
-                    <h5 class="sans">ऊर्ध्वमूलमधश्शाखम् अश्वत्थं प्राहुरव्ययम्</h5>
+                <div class="text-center mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet">
+                    <h6 class="sub-head-sans">श्रीः<br>
+                        श्री धन्वन्तरये नमः<br>
+                        ऊर्ध्वमूलमधश्शाखम् अश्वत्थं प्राहुरव्ययम्</h6>
+                        <h1 class="big-head-sans">आयुर्वेदसुधानिधिः </h1>
+                    <h2 class="big-head-sans">अपर्याप्तामृतम् - Unlimited Ambrosia</h2>
                 </div>
                 
             </div>
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">Content</div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">goes</div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">here</div>
+                <!--Grid layout with 3 cells -->
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                        <figure class="mdl-card__media">
+                            <img src="img/prameyabg.jpg" alt="Prameya-img" />
+                        </figure>
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h1 class="mdl-card__title-text">Prameya</h1>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Prameya deals with Subjects.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            Go to Prameya tree
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                        <figure class="mdl-card__media">
+                            <img src="img/pramanabg.jpg" alt="Pramana-img" />
+                        </figure>
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Pramana</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Texts
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            Go to Pramana tree
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
+                    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                        <figure class="mdl-card__media">
+                            <img src="img/pramathabg.jpg" alt="Pramatha-img" />
+                        </figure>
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Pramatha</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Preceptors / Disseminators of Knowledge.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            Go to Pramatha tree
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
          <footer class="mdl-mini-footer">

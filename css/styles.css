@@ -1,3 +1,30 @@
-.sans{
-    font-family: 'Martel', serif;
+.sub-head-sans{
+    font-family: 'Eczar', serif;
+}
+
+.big-head-sans{
+    font-family: 'Yatra One', cursive;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+/*
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+*/
+.mdl-card__media {
+    margin: 0;
+}
+/*Resize image in the card keeping its ratio */
+.mdl-card__media > img {
+  max-width: 100%;
 }
