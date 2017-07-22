@@ -36,7 +36,7 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation">
-                <button class="mdl-button mdl-js-button mdl-button--accent show-modal">
+                <button class="mdl-button mdl-js-button mdl-button--accent show-modal1">
                     Login
                 </button>
             </nav>
@@ -49,7 +49,7 @@
             <a class="mdl-navigation__link" href="">Prameya</a>
             <a class="mdl-navigation__link" href="">Pramana</a>
             <a class="mdl-navigation__link" href="">Pramatha</a>
-             <button class="mdl-navigation__link mdl-button show-modal">Login</button>
+            <a class="mdl-navigation__link show-modal2">Login</a>
             </nav>
         </div>
         <!--Login Dialog Box -->
@@ -199,11 +199,15 @@
 <script>
     var dialog = document.querySelector('dialog');
     // Now dialog acts like a native <dialog>.
-    var showModalButton = document.querySelector('.show-modal');
+    var showModalButton1 = document.querySelector('.show-modal1');
+    var showModalButton2 = document.querySelector('.show-modal2');
     if (! dialog.showModal) {
       dialogPolyfill.registerDialog(dialog);
     }
-    showModalButton.addEventListener('click', function() {
+    showModalButton1.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    showModalButton2.addEventListener('click', function() {
       dialog.showModal();
     });
     dialog.querySelector('.close').addEventListener('click', function() {
